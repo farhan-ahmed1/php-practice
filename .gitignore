@@ -1,0 +1,36 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# PHP specific
+/vendor/
+composer.lock
+*.log
+*.cache
+
+# Environment files
+.env
+.env.backup
+.phpunit.result.cache
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+*.swp
+*.swo
+
+# Node modules if using npm/yarn
+/node_modules/
+
+# Build directories
+/build/
+/dist/
